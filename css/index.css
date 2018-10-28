@@ -1,0 +1,163 @@
+div.titlebar h1 {
+	text-align: center;
+	font-family: sans-serif;
+}
+
+div.navigation {
+	width: 80%;
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+div.tab-content {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 15px;
+}
+
+body {
+    padding: 10px;
+	}
+
+.nav-tabs .nav-link {
+	border: 1px solid #ced4da;
+}
+
+.nav-tabs .nav-link:hover {
+	background-color: #ddd;
+}
+
+.table thead th {
+    background-color: #ddd;
+}
+
+table {
+   margin: 0 auto
+}
+
+.table td.fit, 
+.table th.fit {
+    white-space: nowrap;
+    width: 1%;
+}
+
+ul#race {
+	list-style-type: none;
+	padding: 5px;
+}
+
+div#border {
+	  border: 1px solid lightgray;
+    box-shadow: 10px 10px 5px #888888;  
+}
+
+a#other {
+	box-shadow: 10px 0 5px -2px #888888;  
+}
+
+.progress-bar {
+	color: black;
+}
+
+.required {
+	 border: 1px solid red;
+}
+
+.btn-primary {
+	margin: 5px;
+}
+
+.btn-secondary {
+	margin: 5px;
+	background-color: white;
+	color: black;
+}
+
+.btn-success {
+	margin: 5px;
+}
+
+ul {
+	margin-top: 15px;
+}
+li {
+	list-style: none;
+}
+
+.complete {
+	color: green;
+}
+
+.incomplete {
+	color: red;
+}
+
+.missing-field {
+	border: 1px solid red;
+	border-radius: 5px;
+}
+
+#mailingAddress,#foreignEducation,#otherRelationshipDiv,#disciplineDetails,#behaviorDetails,#distressDetailsDiv,#holidayDetailsDiv  {
+	display: none;
+}
+
+.pull-left {
+	padding-left: 0px;
+}
+
+#summary-tab, #congrats-tab {
+   pointer-events: none;
+   cursor: default;
+}
+
+.student-content p{
+    padding: 5px;
+    padding-left: 10px;
+    border-left: 2px solid #0069d9;
+    margin-left: 20px;
+    width: 100%;
+}
+
+
+.student-content {
+	padding-left: 10px;
+}
+
+.summarylist {
+    border-left: 1px solid #0069d9;
+    padding-left: 10px;
+}
+
+.bold {
+	font-weight: 500;
+}
+
+.student-columns {
+	width: 49%;
+}
+
+.authorize {
+	border-left: 2px solid #0069d9;
+	padding: 5px;
+}
+
+#returning {
+	width: 200px;
+	margin: 0 auto;
+	display: block;
+}
+
+#congrats {
+	text-align: center;
+}
+
+.dataTables_filter {
+   width: 50%;
+   float: right;
+   text-align: right;
+}
+
+.highlighted {
+	background: whitesmoke;
+}
